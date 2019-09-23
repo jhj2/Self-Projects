@@ -4,9 +4,11 @@
 <p> 
     Coming into this dataset, I expected the most efficient shooter at high volumes closest to the basket to be a center a la Shaq with the intuition to slam dunk everything or a point guard like Tony Parker able to slice defences on his way to the basket. The surprise winner of most efficient player with shots  &lt;1 ft away from the basket: TJ Warren. A small forward whose playstyle fits neither of those descriptions<span title='Giannis Antetokounmpo and Lebron James are small forwards that also have league leading efficincies near the basket but they are the exception rather than the rule.'> <sup> <b> [1] </b> </sup> </span>. How is this possible? A review of the highlights reveals a bold driver whose layups and floaters have an unclear release point that may result in the tallies of shots next to the basket.
 </p>
+
 <video width="320" height="240" controls autoplay>
   <source src="Images/FloaterCombined.mp4" type="video/mp4">
 </video> 
+
 <p>
     This dominance at close range from 1-4 feet out from would backup the suggestion that this dominance stems from layups as opposed to dunks by adept centers whose shot distance profiles drop off more drastically from greater than 2 feet. 
 </p>

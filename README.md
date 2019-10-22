@@ -14,6 +14,7 @@ Highlights
                                      
   </p>
 
+![Short List](https://github.com/jhj2/Self-Projects/blob/master/BoxOfficePredictor/Images/BoxOfficeModelComparisonShort.png)
 
 <h3>
   Building a box office predictor based on trailer reactions

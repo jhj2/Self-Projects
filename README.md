@@ -10,7 +10,7 @@ Highlights
 
 <p>
  
-  TJ Warren is one of the best players at shooting at <1 ft away from the basket. However, low assist totals and poorer shooting farther away from the basket prevent him getting more playing time.  <a href="https://github.com/jhj2/Self-Projects/blob/master/BasketballAnalysis/TJWarren.md" title="Read more here">Read more here</a>
+  TJ Warren is one of the best players at shooting at <1 ft away from the basket. However, low assist totals and poorer shooting farther away from the basket prevent him getting more playing time.  <a href="https://github.com/jhj2/Self-Projects/blob/master/BasketballAnalysis/TJWarren.md" title="Read more here">Read more here.</a> <b> 2020 update: TJ Warren has found a home in Indiana, leading the team in total points scored and a top-3 shooting percentage on the team. However, most advanced stats (e.g. VORP and win-shares do not rate TJ as highly as other teammates).
                                      
   </p>
 

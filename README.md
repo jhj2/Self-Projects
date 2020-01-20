@@ -9,7 +9,7 @@ Highlights
   </h3>
   
 <p>
-  I created and currently am working on a model for looking at stock prices after clinical trial announcements. <a href="https://github.com/jhj2/Self-Projects/blob/master/BiotechModel/BiotechModelWriteup.md" title="Read more here."Read more here.</a>
+  I created and currently am working on a model for looking at stock prices after clinical trial announcements. <a href="https://github.com/jhj2/Self-Projects/blob/master/BiotechModel/BiotechModelWriteup.md" title="Read more here." Read more here.</a>
   </p>
 
 <h3>

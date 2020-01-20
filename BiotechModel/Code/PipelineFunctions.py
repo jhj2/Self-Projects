@@ -2,6 +2,11 @@
 '''
 Pipeline functions that didn't fit neatly into a single category
 '''
+import pandas as pd 
+import numpy as np 
+import random
+from datetime import datetime, date, timedelta
+import matplotlib.pyplot as plt
 
 '''
 Inputs: headlines (dataframe), stocks (dictionary of dataframe), 

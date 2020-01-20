@@ -3,6 +3,14 @@
 <h2> 
 Highlights
   </h2>
+  
+<h3>
+  Predicting opening stock prices after clinical trial news. 
+  </h3>
+  
+<p>
+  I created and currently am working on a model for looking at stock prices after clinical trial announcements.
+  </p>
 
 <h3>
   TJ Warren: Good at floaters, not much else

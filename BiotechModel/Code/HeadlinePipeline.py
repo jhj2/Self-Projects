@@ -4,20 +4,15 @@
 #Import libraries
 import pandas as pd
 import numpy as np
-import scipy as sp
 import LoadFiles
-from datetime import datetime, date, timedelta
+from datetime import datetime, date
 import StockFeaturePrepare as sfp
 from PipelineFunctions import GetHeadlineHistory, DefineEventResult
-import random
-import matplotlib.pyplot as plt
 
-#Setup crude prediction pipeline
-from sklearn.preprocessing import normalize, robust_scale
-from sklearn.model_selection import KFold, cross_val_score, cross_validate, cross_val_predict
-from sklearn.linear_model import ElasticNetCV
+#Setup crude prediction pipeline (simplified for git)
+from sklearn.preprocessing import robust_scale
+from sklearn.model_selection import KFold
 from sklearn.svm import SVC
-from sklearn.metrics import confusion_matrix
 
 #Load files
 headlines = LoadFiles.LoadHeadlines()

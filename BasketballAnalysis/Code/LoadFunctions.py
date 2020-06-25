@@ -6,6 +6,18 @@ import os
 import pickle 
 
 #Functions
+def GetDataPath(data_file):
+	'''Sub helper function for other load functions'''
+	base_path = os.path.abspath('../Data')
+	data_path = base_path + '/' + data_file
+	return data_path
+
+def GetImagePath(data_file):
+	'''Sub helper function for other load functions'''
+	base_path = os.path.abspath('../Images')
+	data_path = base_path + '/' + data_file
+	return data_path
+
 #Get relevenat stats
 def BStatsReduce(stats_matrix):
 	#Assumption that input is a pandas matrix
@@ -36,7 +48,8 @@ def LoadGame(game=1, reduced=True):
 def LoadSeason(season='2016-17', reduced=True):
 	season_pickle = season+'.pickle'
 	try:
-		with open(season_pickle, 'rb') as f:
+		pickle_path = GetDataPath(season_pickle)
+		with open(pickle_path, 'rb') as f:
 			season_chart = pickle.load(f)
 	except FileNotFoundError: 
 		base_path = '#####'
@@ -56,3 +69,15 @@ def LoadSeason(season='2016-17', reduced=True):
 		season_chart = BStatsReduce(season_chart)
 	return season_chart
 
+#Load 2019-20 season which is dramatically different than the 2016-17
+def LoadSeason19():
+	file_path = GetDataPath('NBA-PBP-2019-2020.csv')
+	with open(file_path, 'r') as f:
+		season_chart = pd.read_csv(f)
+	return season_chart
+
+def LoadPlayers19():
+	file_path = GetDataPath('2019-20PlayerStats.csv')
+	with open(file_path, 'r') as f:
+		season_chart = pd.read_csv(f, sep='\t')
+	return season_chart
